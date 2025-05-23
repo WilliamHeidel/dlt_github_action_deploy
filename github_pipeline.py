@@ -36,7 +36,7 @@ def jaffles_source(parallelized=True, write_disposition='replace'):
 
 if __name__ == "__main__":
     pipeline = dlt.pipeline(
-        pipeline_name="jaffles_data",
+        pipeline_name="jaffles_github_action",
         destination="duckdb",
         dataset_name="jaffles_data",
     )
