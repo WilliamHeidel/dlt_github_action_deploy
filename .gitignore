@@ -1,0 +1,10 @@
+
+# Environments
+.env
+
+# Folders
+secrets/
+
+# Data
+*.duckdb
+
